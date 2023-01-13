@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    color: #F2E7D5;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    padding: 50px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #393E46;
+    overflow: hidden;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul li a{
+    color:#F2E7D5;
+    text-decoration: none;
+    font-size: larger;
+    position: relative;
+    padding: 0px 10px;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #F2E7D5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+img {
+    border: 10px solid #F2E7D5;
+    outline: solid #000000;
+    padding-left: 0px;
+    position: fixed; left: 38%; bottom: 200px;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center; right: 500px; 
+    position: fixed 20px;
+  }
+
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  #image2{
+    border: 10px solid #F2E7D5;
+    outline: solid #000000;
+    position: fixed; left: 10%; bottom: 200px;
+
+  }
+
+  .about2{
+    flex-basis: 60%;
+
+
+  }
+
+
+ 
